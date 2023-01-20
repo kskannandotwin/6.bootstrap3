@@ -60,6 +60,59 @@
           <button type="button" class="btn btn-default">Login</button>
         </div>
       </form>
+      <br />
+      <hr />
+      <form>
+        <label for="comments">Comments:</label>
+        <textarea class="form-control" id="comments" rows="5"></textarea>
+        <div class="checkbox checkbox-inline">
+          <label>
+            <input type="checkbox" id="checkbox1" value="value1" />
+            Checkbox1
+          </label>
+        </div>
+        <div class="checkbox checkbox-inline disabled">
+          <label>
+            <input type="checkbox" id="checkbox2" value="value2" />
+            Checkbox2
+          </label>
+        </div>
+        <br />
+        <br />
+        <hr />
+        <div class="radio radio-inline">
+          <label>
+            <input type="radio" name="radios" id="radio1" value="option1" />
+            Radio Option 1
+          </label>
+        </div>
+        <div class="radio radio-inline">
+          <label>
+            <input type="radio" name="radios" id="radio2" value="option2" />
+            Radio Option 2
+          </label>
+        </div>
+        <div class="radio radio-inline">
+          <label>
+            <input type="radio" name="radios" id="radio3" value="option3" disabled />
+            Radio Option 3
+          </label>
+        </div>
+        <br />
+        <hr />
+        <select multiple class="form-control">
+          <option>Option 1</option>
+          <option>Option 2</option>
+          <option>Option 3</option>
+        </select>
+        <br />
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Text Input"
+          disabled
+        />
+      </form>
     </div>
 
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
