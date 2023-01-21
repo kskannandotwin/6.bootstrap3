@@ -1,121 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Forms</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <style></style>
-  </head>
-  <body>
-    <div class="container-fluid">
-      <form class="form-inline">
-        <div class="form-group">
-          <label for="email">Email:</label>
-          <input
-            type="text"
-            id="email"
-            placeholder="Email"
-            class="form-control"
-          />
-        </div>
-        <div class="form-group">
-          <label for="password">Password:</label>
-          <input
-            type="password"
-            id="password"
-            placeholder="Password"
-            class="form-control"
-          />
-        </div>
-        <button type="button" class="btn btn-default">Login</button>
-      </form>
-      <br />
-      <hr />
-      <form class="form-horizontal">
-        <div class="form-group">
-          <label for="email" class="col-sm-2 control-label">Email:</label>
-          <div class="col-sm-10">
-            <input
-              type="text"
-              id="email"
-              placeholder="Email"
-              class="form-control"
-            />
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="password" class="col-sm-2 control-label">Password:</label>
-          <div class="col-sm-10">
-            <input
-              type="password"
-              id="password"
-              placeholder="Password"
-              class="form-control"
-            />
-          </div>
-        </div>
-        <div class="col-sm-offset-2 col-sm-10">
-          <button type="button" class="btn btn-default">Login</button>
-        </div>
-      </form>
-      <br />
-      <hr />
-      <form>
-        <label for="comments">Comments:</label>
-        <textarea class="form-control" id="comments" rows="5"></textarea>
-        <div class="checkbox checkbox-inline">
-          <label>
-            <input type="checkbox" id="checkbox1" value="value1" />
-            Checkbox1
-          </label>
-        </div>
-        <div class="checkbox checkbox-inline disabled">
-          <label>
-            <input type="checkbox" id="checkbox2" value="value2" />
-            Checkbox2
-          </label>
-        </div>
-        <br />
-        <br />
-        <hr />
-        <div class="radio radio-inline">
-          <label>
-            <input type="radio" name="radios" id="radio1" value="option1" />
-            Radio Option 1
-          </label>
-        </div>
-        <div class="radio radio-inline">
-          <label>
-            <input type="radio" name="radios" id="radio2" value="option2" />
-            Radio Option 2
-          </label>
-        </div>
-        <div class="radio radio-inline">
-          <label>
-            <input type="radio" name="radios" id="radio3" value="option3" disabled />
-            Radio Option 3
-          </label>
-        </div>
-        <br />
-        <hr />
-        <select multiple class="form-control">
-          <option>Option 1</option>
-          <option>Option 2</option>
-          <option>Option 3</option>
-        </select>
-        <br />
-        <input
-          type="text"
-          class="form-control"
-          placeholder="Text Input"
-          disabled
-        />
-      </form>
-    </div>
 
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Forms</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <style></style>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <form class="form-inline">
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="text" id="email" placeholder="Email" class="form-control" />
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Password" class="form-control" />
+      </div>
+      <button type="button" class="btn btn-default">Login</button>
+    </form>
+    <br />
+    <hr />
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label for="email" class="col-sm-2 control-label">Email:</label>
+        <div class="col-sm-10">
+          <input type="text" id="email" placeholder="Email" class="form-control" />
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="password" class="col-sm-2 control-label">Password:</label>
+        <div class="col-sm-10">
+          <input type="password" id="password" placeholder="Password" class="form-control" />
+        </div>
+      </div>
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="button" class="btn btn-default">Login</button>
+      </div>
+    </form>
+    <br />
+    <hr />
+    <form>
+      <label for="comments">Comments:</label>
+      <textarea class="form-control" id="comments" rows="5"></textarea>
+      <div class="checkbox checkbox-inline">
+        <label>
+          <input type="checkbox" id="checkbox1" value="value1" />
+          Checkbox1
+        </label>
+      </div>
+      <div class="checkbox checkbox-inline disabled">
+        <label>
+          <input type="checkbox" id="checkbox2" value="value2" />
+          Checkbox2
+        </label>
+      </div>
+      <br />
+      <br />
+      <hr />
+      <div class="radio radio-inline">
+        <label>
+          <input type="radio" name="radios" id="radio1" value="option1" />
+          Radio Option 1
+        </label>
+      </div>
+      <div class="radio radio-inline">
+        <label>
+          <input type="radio" name="radios" id="radio2" value="option2" />
+          Radio Option 2
+        </label>
+      </div>
+      <div class="radio radio-inline">
+        <label>
+          <input type="radio" name="radios" id="radio3" value="option3" disabled />
+          Radio Option 3
+        </label>
+      </div>
+      <br />
+      <hr />
+      <select multiple class="form-control">
+        <option>Option 1</option>
+        <option>Option 2</option>
+        <option>Option 3</option>
+      </select>
+      <br />
+      <input type="text" class="form-control" placeholder="Text Input" disabled />
+      <br />
+      <hr />
+      <div class="form">
+        <div class="row">
+          <div class="form-group has-success col-xs-2">
+            <label for="textinput1" class="sr-only">Text Input 1</label>
+            <input type="text" class="form-control" id="textinput1" placeholder="Text Input 1">
+          </div>
+          <div class="form-group has-error col-xs-6">
+            <label for="textinput2" class="sr-only">Text Input 2</label>
+            <input type="text" class="form-control input-lg" id="textinput2" placeholder="Text Input 2">
+          </div>
+          <div class="form-group has-warning col-xs-4">
+            <label for="textinput3" class="sr-only">Text Input 3</label>
+            <input type="text" class="form-control input-sm" id="textinput3" placeholder="Text Input 3">
+          </div>
+        </div>
+        <br>
+        <hr>
+        <div class="form-group has-feedback has-warning">
+          <label for="textinput4" class="sr-only">Text Input</label>
+          <input type="text" class="form-control" id="textinput4" placeholder="Text Input">
+          <span class="glyphicon glyphicon-alert form-control-feedback"></span>
+          <span class="sr-only">warning</span>
+        </div>
+        <br>
+        <hr>
+        <div class="input-group has-feedback has-success">
+          <span class="input-group-addon">@</span>
+          <label for="textinput4" class="sr-only">Text Input</label>
+          <input type="text" class="form-control" id="textinput4" placeholder="Text Input">
+          <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+          <span class="sr-only">warning</span>
+        </div>
+        <br>
+        <hr>
+        <div class="input-group has-feedback has-success">
+          <span class="input-group-btn">
+            <button type="button" class="btn btn-default">Submit</button>
+          </span>
+          <label for="textinput4" class="sr-only">Text Input</label>
+          <input type="text" class="form-control" id="textinput4" placeholder="Text Input">
+          <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+          <span class="sr-only">warning</span>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
 </html>
